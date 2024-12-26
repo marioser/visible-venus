@@ -3,7 +3,7 @@ title: Guia de ejemplo
 description: Esta es un guia de ejemplo.
 ---
 
-Esta es la descripcion del documento que necesitacomos subir.
+Esta es la descripcion del documento que necesitamos subir y comprobar si es contenido es automatico.
 
 ## Futuras lecturas
 
