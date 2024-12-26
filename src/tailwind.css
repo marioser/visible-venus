@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Personalizar los paneles de API Pluggins */
+.panel {
+    @apply bg-indigo-500 border rounded shadow-lg p-4; /* Estilos para el panel */
+  }
+
+:root {
+    --sl-font: 'Inter', serif;
+  }

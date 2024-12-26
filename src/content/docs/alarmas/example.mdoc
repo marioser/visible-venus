@@ -1,0 +1,41 @@
+---
+title: Guía para uso del sistema de alarmas
+description: Una guia para aprender sobre el uso del sistema de alarmas.
+---
+
+
+{% card title="Estrellas" icon="star" %}
+Sirius, Vega, Betelgeuse
+{% /card %}
+
+{% steps %}
+
+1. Importa el componente en tu archivo MDX:
+
+   ```js
+   import { Steps } from '@astrojs/starlight/components';
+   ```
+
+2. Envuelve `<Steps>` alrededor de tus elementos de lista ordenada.
+
+{% /steps %}
+
+{% tabs %}
+{% tabitem label="Estrellas" %}
+Sirius, Vega, Betelgeuse
+{% /tabitem %}
+
+{% tabitem label="Lunas" %}
+Io, Europa, Ganymede
+{% /tabitem %}
+{% /tabs %}
+
+{% tabs %}
+{% tabitem label="Estrellas" icon="star" %}
+Sirius, Vega, Betelgeuse
+{% /tabitem %}
+
+{% tabitem label="Lunas" icon="moon" %}
+Io, Europa, Ganymede
+{% /tabitem %}
+{% /tabs %}
